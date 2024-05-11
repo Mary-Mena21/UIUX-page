@@ -2,5 +2,7 @@
     margin: 5px;
     padding: 10px;
     cursor: pointer;
+    width: 120px;
+    transition-delay: 15s;
   }
   

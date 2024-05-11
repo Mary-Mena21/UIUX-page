@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SocialMediaLogin from './SocialMediaLogin';
 import Button from './Button';
 import Checkbox from './Checkbox';
@@ -17,7 +17,12 @@ function AuthForm() {
   };
 
   if (isSubmitted) {
-    return <h1>Welcome! You have successfully signed on.</h1>;
+    return (
+      <>
+        <h1>Welcome! You have successfully signed on.</h1>{' '}
+        <Button onClick={() => setIsSubmitted(false)}>Sign Out</Button>
+      </>
+    );
   }
 
   return (
