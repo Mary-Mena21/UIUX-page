@@ -1,11 +1,16 @@
-import React from 'react';
+import Form from 'react-bootstrap/Form';
 
 function Checkbox({ label, isChecked, onChange }) {
   return (
-    <label>
-      <input type="checkbox" checked={isChecked} onChange={onChange} />
-      {label}
-    </label>
+    <Form>
+      <Form.Check // prettier-ignore
+        type="switch"
+        id="custom-switch"
+        label={label}
+        checked={isChecked}
+        onChange={onChange}
+      />
+    </Form>
   );
 }
 
