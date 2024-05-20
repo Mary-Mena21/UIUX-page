@@ -4,11 +4,11 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color:rgb(144, 101, 176);
     color: white;
     cursor: pointer;
     transition-delay: 5ms;
-    width: 160px;
+    width: 100px;
   }
   
   .btn:disabled {
@@ -17,7 +17,7 @@
   }
   
   .btn:hover:not(:disabled) {
-    background-color: #0056b3;
+    background-color:rgb(133, 103, 156);
   }
   
   .btn:focus {

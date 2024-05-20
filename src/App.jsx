@@ -1,6 +1,7 @@
 import AuthForm from './AuthForm';
 import './App.css';
-import Navbar from './Navbar';
+import NavBar from './Navbar';
+// import NavBar from './NavBar';
 // import HeroImg from './HeroImg';
 
 function App() {
@@ -13,16 +14,18 @@ function App() {
         <div className="footer">
           <p>Footer</p>
         </div> */}
+        {/* <div className="header">
+          <NavBar />
+        </div> */}
         <div className="header">
-          <Navbar />
+          <NavBar />
         </div>
-
         <div className="left ">
           <AuthForm />
         </div>
         <div className="middle hero-image"></div>
 
-        <footer className="footer">
+        <footer className="footer curve">
           <br />
           &copy; Copyright 2024 UI-UX
         </footer>

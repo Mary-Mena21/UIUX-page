@@ -18,61 +18,50 @@ function UserForm() {
   };
   return (
     <>
-      <div>Login</div>
-      <br />
+        {/* <fieldset className='table'>
+          <legend>email</legend>
+      <p>login with email and password</p>
+      <p>login with email and password</p>
+      <p>login with email and password</p>
+      <p>login with email and password</p>
+      </fieldset> */}
 
+      <p>login with email and password</p>
       <Form onSubmit={handleSubmit}>
-        {/* <Form.Group className="mb-" controlId="formGroupEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            required
-            onChange={(e) => setFormData(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formGroupPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            placeholder="Password"
-            required
-            onChange={(e) => setFormData(e.target.value)}
-          />
-        </Form.Group> */}
-
-        <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-          <Form.Label column sm={2} >
+        <Form.Group as={Row} className="mb-2" controlId="formHorizontalEmail">
+          {/* <Form.Label column sm={3} style={{textAlign: ''}}>
             Email
-          </Form.Label>
-          <Col sm={10} >
+          </Form.Label> */}
+          <Col >
             <Form.Control
               type="email"
-              placeholder="Email"
+              placeholder="email"
               required
               onChange={(e) => setFormData(e.target.value)}
+              
             />
           </Col>
         </Form.Group>
 
         <Form.Group
           as={Row}
-          className="mb-3"
+          className="mb-2"
           controlId="formHorizontalPassword"
-        >
-          <Form.Label column sm={2}>
+          >
+          {/* <Form.Label column sm={3} style={{textAlign: ''}} >
             Password
-          </Form.Label>
-          <Col sm={10}>
+          </Form.Label> */}
+          <Col security='password'>
             <Form.Control
               type="password"
-              placeholder="Password"
+              placeholder="password"
               required
               onChange={(e) => setFormData(e.target.value)}
-            />
+              />
           </Col>
         </Form.Group>
       </Form>
+            
     </>
   );
 }
