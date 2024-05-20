@@ -4,8 +4,6 @@ https://uiux-loginpage.vercel.app/
 
 ![uiux-login](https://github.com/Mary-Mena21/UIUX-page/assets/85176043/c0fa6b23-5525-4cfd-9c5b-e0e34f65d303)
 
-![DB](https://github.com/Mary-Mena21/UIUX-page/files/15379277/UI_UX.v1.Team.pdf)
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
