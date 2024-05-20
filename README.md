@@ -1,9 +1,5 @@
 # UI/UX Login-page
-- use compound components
-- use the constraints given to you
-- Social Media Icons: Add clickable icons for social media sign-on options (no actual integration required).
-- Terms & Conditions Agreement: Include a required checkbox for agreeing to terms and conditions.
-- Button States: Provide different visual states (e.g., hover, focus, disabled) for buttons.
+The UI/UX login page uses compound components and follows the provided constraints. It has clickable icons for social media sign-in (no actual integration is required), a required checkbox to agree to the terms and conditions, and different visual states (hover, focus, disabled) for the buttons.
 
 https://uiux-loginpage.vercel.app/
 
