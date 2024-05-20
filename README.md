@@ -1,17 +1,9 @@
 # React + Vite
 
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This templ[UI_UX v1 Team.pdf](https://github.com/Mary-Mena21/UIUX-page/files/15379277/UI_UX.v1.Team.pdf)
+ate provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
