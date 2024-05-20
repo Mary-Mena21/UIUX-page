@@ -1,8 +1,9 @@
 # UI/UX Login-page 
 The UI/UX login page uses compound components and follows the provided constraints. It has clickable icons for social media sign-in (no actual integration is required), a required checkbox to agree to the terms and conditions, and different visual states (hover, focus, disabled) for the buttons.
 
-https://uiux-loginpage.vercel.app/
 ![Logo-color](https://github.com/Mary-Mena21/UIUX-page/assets/85176043/7a6bd901-7a72-480e-a4f6-ee23c503e555)
+
+https://uiux-loginpage.vercel.app
 
 ![uiux-login](https://github.com/Mary-Mena21/UIUX-page/assets/85176043/c0fa6b23-5525-4cfd-9c5b-e0e34f65d303)
 
