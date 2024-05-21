@@ -177,6 +177,7 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-shadow: 3px 3px 8px #da79ec;
 }
 
 .wrap-login100 {
